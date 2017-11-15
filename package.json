@@ -1,0 +1,17 @@
+{
+  "name": "botdis",
+  "version": "1.0.0",
+  "description": "tes bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.2.1",
+    "electron": "^1.7.9",
+    "nightmare": "^2.10.0",
+    "phantomjs": "^2.1.7",
+    "request": "^2.83.0"
+  }
+}
