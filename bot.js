@@ -6,7 +6,7 @@ const electron = require('electron');
 const client = new Discord.Client();
 
 
-var nightmare = new Nightmare();
+var nightmare = new Nightmare({show:false});
 
 
 const url = "http://103.252.100.19/"
